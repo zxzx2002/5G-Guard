@@ -1,3 +1,2 @@
-（1）参考P4中的寄存器写法，以及py中寄存器的读取/修改方法，修改py文件，使得能够读取/修改到你第一周程序中，寄存器的值。
-注：py中的函数已经全部写好，只要修改程序名、Table、寄存器等部分的名字就可以了
-（2）这个控制平面GRPC的Py程序，是在交换机运行出bfshell之后，在【交换机】里面新开一个窗口运行的
+Since the control plane supports the deployment of various learning models, the key lies in how to upload the information obtained by the data plane to the model. Therefore, to ensure higher flexibility of use, we provide a case of cross-plane communication implemented using gRPC. The specific model can be deployed according to your needs. 
+The input of the model provided by gRPC is (1) the number of data packets within a unit time and (2) the total number of bytes of the data packets.
