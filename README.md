@@ -2,6 +2,8 @@
 Source code of 5G-Guard (CCC-2026)
 ## Paper
 5G-Guard: A 5G-Specific and Timely Intrusion Detection System Using Programmable Switches
+## Cite
+Waiting for public search
 ## Abstract
 5G networks, with their inherent demands for high reliability and low latency, are particularly vulnerable to security threats such as distributed denial of service (DDoS) attacks, which can directly undermine these core service guarantees. However, existing intrusion detection systems (IDSs) struggle with the dual challenges of parsing complex 5G protocols and achieving timely detection. In this paper, we propose 5G-Guard, a 5G-specific and timely IDS framework leveraging programmable switches. Our core design employs a cross-plane architecture. Specifically, the switch data plane performs line-rate parsing of 5G protocols and conducts threshold-based DDoS detection, while the control plane hosts a learning-based model for fine-grained analysis and dynamically optimizes the data plane's detection thresholds. These two planes are tightly coordinated via gRPC for real-time communication. Implemented on an Intel Tofino switch, 5G-Guard reduces per-packet detection latency to sub-microsecond level and improves IDS throughput to 2.78 Mpps, while maintaining high detection accuracy.
 ## Source Code Usage
